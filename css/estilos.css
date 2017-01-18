@@ -1,0 +1,118 @@
+body {
+	background-color: #1d3557;
+	color: #F1FAEE;
+	font-family: Arial;
+	margin: 0;
+}
+
+.titulo	{
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.caja {
+	border: 1px solid #A8DADC;
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+.tipo-a {
+	margin: 0 auto;
+}
+
+.tipo-b {
+	margin-left: calc(100%/2 - 100px);
+
+}
+
+.tipo-c {
+	border: 1px solid #457b9d;
+	padding: 10px;
+	text-align: center;
+}
+
+.tipo-c .caja {
+	display: inline-block;
+	text-align: left;
+}
+
+.relative {
+	border: 1px solid #457b9d;
+	position: relative;
+	height: 250px;
+}
+
+.tipo-d {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.tipo-e {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.tipo-f {
+	display: flex;
+	justify-content: center;
+}
+
+.tipo-g {
+	display: table;
+	height: 250px;
+	text-align: center;
+	width: 100%;
+}
+
+.tipo-g .caja {
+	display: table-cell;
+	width: 200px;
+}
+
+.vertical {
+	background: #e63946;
+	height: 250px;
+}
+
+.tipo-g2 {
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+
+.tipo-g2 .caja {
+	display: table-cell;
+	vertical-align: middle;
+	width: 200px;
+}
+
+.tipo-h {
+	box-sizing: border-box;
+	padding-top: 25px;
+}
+
+.tipo-h .caja {
+	height: 200px;
+}
+
+.tipo-i {
+	display: flex;
+	align-items: center;
+}
+
+.tipo-i .caja {
+	margin: 0;
+}
+
+.tipo-j	{
+	line-height: 250px;
+	text-align: center;
+}
+
+.tipo-k > * {
+	display: inline;
+	vertical-align: middle;
+}
